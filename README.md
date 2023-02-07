@@ -2,7 +2,8 @@
 
 ### Quick Information
 Beyond 'Vibe': [beyondnav.com/geolocated](https://www.beyondnav.com/geolocated)
-![Beyond-Logo80x80.png](https://postimg.cc/Vd6KLRCB) Beyond Discord: [discord.gg/3NhezuZZyN](https://discord.gg/3NhezuZZyN)
+
+![Small Beyond Logo](https://postimg.cc/Vd6KLRCB) Beyond Discord: [discord.gg/3NhezuZZyN](https://discord.gg/3NhezuZZyN)
 
 ---
 ### Objective 
