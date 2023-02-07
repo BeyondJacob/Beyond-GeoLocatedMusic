@@ -3,8 +3,7 @@
 ### Quick Information
 Beyond 'Vibe': [beyondnav.com/geolocated](https://www.beyondnav.com/geolocated)
 
-![BeyondLogo25x25](https://user-images.githubusercontent.com/105527928/217377799-ce880bad-b7cd-472f-807c-68561be13079.png)
-Beyond Discord: [discord.gg/3NhezuZZyN](https://discord.gg/3NhezuZZyN)
+![BeyondLogo25x25](https://user-images.githubusercontent.com/105527928/217377799-ce880bad-b7cd-472f-807c-68561be13079.png) Beyond Discord: [discord.gg/3NhezuZZyN](https://discord.gg/3NhezuZZyN)
 
 ---
 ### Objective 
