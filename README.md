@@ -6,7 +6,7 @@
 
 ---
 ### 🔍 Objective 
-The ability to take a set of directions given by the user from a maps resource. Which generates a music playlist based on moderate to large density cities along 'X' amount of miles of route. Creating a vast playlist to match approximately the trip's duration and personalization of the trip.
+The ability to take a set of directions given by the user from a maps resource. Which generates a music playlist based on moderate to large density cities along 'X' amount of miles of route... if can't find something nearby, then it brings origin from state boundaries (United States). Creating a vast playlist to match approximately the trip's duration and personalization of the trip.
 
 ---
 
@@ -15,6 +15,7 @@ The ability to take a set of directions given by the user from a maps resource. 
 * HTML5 
 * CSS4
 * SQL
+* Amazon Web Services
 
 ### 📂 APIs / Databases
 * [Spotify API](https://developer.spotify.com/)
