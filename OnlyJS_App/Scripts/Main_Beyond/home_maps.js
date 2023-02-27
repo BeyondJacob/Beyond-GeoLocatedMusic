@@ -1,3 +1,4 @@
+// GOOGLE MAPS API JAVASCRIPT
 function initMap() {
 	// Create a new map object centered on a specific location
 	let myLatLng = {lat: 37.7749, lng: -122.4194};

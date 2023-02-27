@@ -1,0 +1,62 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Page Regulations */
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header - Top Navigation */
+body > header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body > header > nav {
+    width: 60%;
+    background-color: rgb(215, 215, 215);
+    padding: 0.3rem;
+    border-radius: 12px;
+}
+body > header > nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+body > header > nav > ul > li > a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+body > header > nav > ul > li > a > button {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* Footer - Bottom Navigation */
+body > footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+body > footer > div {
+    display: flex;
+    flex-direction: column;
+}
+body > footer > div > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+body > footer > ul {
+    list-style-type: none;
+    line-height: 2rem;
+}
+body > footer > ul > li > a {
+    text-decoration: none;
+}
