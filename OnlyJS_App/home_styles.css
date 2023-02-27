@@ -1,0 +1,11 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+#map {
+    height: 60vh;
+}
