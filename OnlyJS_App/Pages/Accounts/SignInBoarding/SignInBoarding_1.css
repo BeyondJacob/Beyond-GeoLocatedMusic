@@ -15,6 +15,14 @@ body > main > div {
     padding: 100px;
     border-radius: 30px;
 }
+
+/* Form related CSS */
+body > main > div > form > fieldset {
+    border: none;
+}
+body > main > div > form > fieldset > table {
+    padding-bottom: 30px;
+}
 body > main > div div > p {
     color: #bebebe;
 }
@@ -24,7 +32,7 @@ body > main > div div > p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 18px 63px;
+    padding: 18px 83px;
     background-color: white;
     border: 1px solid #1DB032;
     border-radius: 4px;
@@ -76,27 +84,4 @@ body > main > div div > p {
 .spotify-button > a {
     text-decoration: none;
     padding-left: 10px;
-}
-
-/* Already Have Account Area */
-body > main > div > div > div {
-    display: flex;
-    flex-direction: row;
-}
-body > main > div > div > div > button {
-    margin-left: 20px;
-    padding-left: 16px;
-    padding-right: 16px;
-
-    background: #1DB032;
-    border-radius: 8px;
-    border-width: 0px;
-    
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-body > main > div > div > button:hover {
-    cursor: pointer;
 }

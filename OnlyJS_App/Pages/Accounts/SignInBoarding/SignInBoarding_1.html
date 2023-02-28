@@ -13,19 +13,28 @@
     <main>
         <div>
             <h1>Login</h1>
-            <div>
-                <button class="create-button">Create Account</button>
-                <p> - - - - - - - - - - - OR - - - - - - - - - - -</p>
-                <button class="spotify-button signup-button">
-                    <img src="/OnlyJS_App/Assets/Social Media/icons8-spotify-30x30-dark.svg">
-                    <a href="#">Sign up with Spotify</a>
-                </button>
-                <p>By creating an account, you acknowledge the Terms of Use and Privacy Policy at Beyond.</p>
-                <div>
-                    <p>Already have an account?</p>
-                    <button>Sign In</button>
-                </div>
-            </div>
+            <form action="submit.php" method="post">
+                <fieldset>
+                    <table>
+                        <div>
+                            <tr><td><label for="email">Email</label></td></tr>
+                            <tr><td><input type="email" id="email" name="email" required></td></tr>
+                        </div>
+                        <div>
+                            <tr><td><label for="password">Password:</label></td></tr>
+                            <tr><td><input type="password" id="password" name="password" required></td></tr>
+                        </div>
+                    </table>
+                    <div>  
+                        <button class="create-button">Continue</button>
+                        <p> - - - - - - - - - - - OR - - - - - - - - - - -</p>
+                        <button class="spotify-button signup-button">
+                            <img src="/OnlyJS_App/Assets/Social Media/icons8-spotify-30x30-dark.svg">
+                            <a href="#">Sign in with Spotify</a>
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
         </div>
     </main>
 
