@@ -97,6 +97,9 @@ body > main > div > div > div > button {
     font-weight: 600;
     letter-spacing: 1px;
 }
+body > main > div > div > div > button > a {
+    text-decoration: none;
+}
 body > main > div > div > button:hover {
     cursor: pointer;
 }
