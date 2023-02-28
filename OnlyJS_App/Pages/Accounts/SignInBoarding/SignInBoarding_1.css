@@ -1,0 +1,102 @@
+body > main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+body > main > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    padding: 100px;
+    border-radius: 30px;
+}
+body > main > div div > p {
+    color: #bebebe;
+}
+
+/* Create Account Button */
+.create-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 63px;
+    background-color: white;
+    border: 1px solid #1DB032;
+    border-radius: 4px;
+
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #1DB032;
+
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.2s ease;
+}
+.create-button:hover {
+    background-color: #1DB032;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Sign Up with Spotify Button */
+.spotify-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    border: 1px solid #1DB032;
+    border-radius: 4px;
+
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+
+    background-color: #1DB954;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.2s ease;
+}
+.signup-button {
+    background-color: #fff;
+    color: #1DB954;
+}
+.signup-button:hover {
+    background-color: #1DB954;
+    color: #fff;
+    cursor: pointer;
+}
+.spotify-button > a {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+/* Already Have Account Area */
+body > main > div > div > div {
+    display: flex;
+    flex-direction: row;
+}
+body > main > div > div > div > button {
+    margin-left: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    background: #1DB032;
+    border-radius: 8px;
+    border-width: 0px;
+    
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+body > main > div > div > button:hover {
+    cursor: pointer;
+}

@@ -1,6 +1,7 @@
 /* Universal Params */
 html {
     font-family: 'Montserrat', sans-serif;
+    background-color: #f8f8f8;
 }
 a, a:visited, a:hover, a:active {
     color: inherit;
