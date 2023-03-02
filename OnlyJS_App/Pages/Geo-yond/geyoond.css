@@ -1,0 +1,135 @@
+body > main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+
+
+
+
+
+
+/* - - - - LEFT COLUMN - - - - */
+.left-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+.left-column > div {
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 2.55%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.left-column > div > div {
+    padding-top: 2%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.left-column > div > div > h2 {
+    text-align: left;
+}
+
+/* Bar Chart for Genres */
+.bar-chart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+  }
+  
+.bar {
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.red {
+    background-color: #f44336;
+}
+
+.blue {
+    background-color: #2196f3;
+}
+
+.green {
+    background-color: #4caf50;
+}
+  
+
+
+
+/* - - - - RIGHT COLUMN - - - - */
+.right-column {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+}
+/* Form for Directions API */
+form {
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+form > div {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+h1 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="text"] {
+    width: 92%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1DB032;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #1cca59;
+}
+/* Display Cities Below Directions API */
+#displayRouteCities {
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}

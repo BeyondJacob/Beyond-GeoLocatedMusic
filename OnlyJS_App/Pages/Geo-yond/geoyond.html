@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/OnlyJS_App/Beyond_MainStyling.css">
+    <link rel="stylesheet" href="/OnlyJS_App/Pages/Geo-yond/geyoond.css">
     <title>Geo-yond 🚗🎵</title>
 </head>
 <body>
@@ -23,6 +24,99 @@
     </header>
 
     <!-- Main Content Goes Here -->
+    <main>
+        <div class="left-column">
+            <div>
+                <h2>Primary Genre Chart</h2>
+                <div class="bar-chart">
+                    <div class="bar red" style="width: 60%;">60% Country</div>
+                    <div class="bar blue" style="width: 30%;">30% POP</div>
+                    <div class="bar green" style="width: 10%;">10% RAP</div>
+                  </div>
+                  
+            </div>
+            <div>
+                <div>
+                    <h2>📻 Tracks Based on Route</h2>
+                    <button type="submit" id="submit-directions-btn">Create Playlist</button>
+                </div>
+                <!-- Table of Generated Music -->
+                <table>
+                    <tr>
+                        <td>#1</td>
+                        <td><img src="/OnlyJS_App/Assets/ab67616d00004851a6fb54b3fe850150c61e5980.jpg" width="75%"></td>
+                        <td>Name of Song</td>
+                        <td>TWISTED, Oliver Tree</td>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td><img src="/OnlyJS_App/Assets/ab67616d00004851a6fb54b3fe850150c61e5980.jpg" width="75%"></td>
+                        <td>Name of Song</td>
+                        <td>TWISTED, Oliver Tree</td>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td><img src="/OnlyJS_App/Assets/ab67616d00004851a6fb54b3fe850150c61e5980.jpg" width="75%"></td>
+                        <td>Name of Song</td>
+                        <td>TWISTED, Oliver Tree</td>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td><img src="/OnlyJS_App/Assets/ab67616d00004851a6fb54b3fe850150c61e5980.jpg" width="75%"></td>
+                        <td>Name of Song</td>
+                        <td>TWISTED, Oliver Tree</td>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td><img src="/OnlyJS_App/Assets/ab67616d00004851a6fb54b3fe850150c61e5980.jpg" width="75%"></td>
+                        <td>Name of Song</td>
+                        <td>TWISTED, Oliver Tree</td>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td><img src="/OnlyJS_App/Assets/ab67616d00004851a6fb54b3fe850150c61e5980.jpg" width="75%"></td>
+                        <td>Name of Song</td>
+                        <td>TWISTED, Oliver Tree</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="right-column">
+            <form>
+                <div>
+                    <h2>🗺️ Directions</h2>
+                    <button type="submit" id="submit-directions-btn">Submit</button>
+                </div>
+                <label for="From">From</label>
+                <input type="text" id="From" name="From" required>
+                <label for="Destination">Destination</label>
+                <input type="text" id="Destination" name="Destination" required>
+            </form>
+            <div id="displayRouteCities">
+                <h2>🏙️ Cities in Route</h2>
+                <div>
+                    <h3>#1</h3>
+                    <p>Columbus, OH</p>
+                </div>
+                <div>
+                    <h3>#2</h3>
+                    <p>Columbus, OH</p>
+                </div>
+                <div>
+                    <h3>#3</h3>
+                    <p>Columbus, OH</p>
+                </div>
+                <div>
+                    <h3>#4</h3>
+                    <p>Columbus, OH</p>
+                </div>
+                <div>
+                    <h3>#5</h3>
+                    <p>Columbus, OH</p>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer>
         <ul>
